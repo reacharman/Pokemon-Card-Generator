@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon Card Generator - Dark Mode</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="background-animation"></div>
+    <div class="container">
+        <div class="card-wrapper">
+            <div class="card" id="card"></div>
+            <div class="card-glow"></div>
+        </div>
+        <p class="loading" id="loading">
+            <span class="loading-text">Catching Pokemon</span>
+            <span class="loading-dots">...</span>
+        </p>
+        <p class="error" id="error"></p>
+        <button class="button" id="generateBtn">
+            <span class="button-text">Generate Pokemon</span>
+            <div class="button-glow"></div>
+        </button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
